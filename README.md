@@ -53,24 +53,30 @@ Todo-List-React/<br>
    git clone https://github.com/ShahmirAliQureshii/Todo-List-React.git
    cd Todo-List-React
    
-2. Install dependencies
-npm install
+2. Install dependencies<br>
+   ```bash
+   npm install
 
 3. Start the development server
-npm run dev
+   ```bash
+   npm run dev
 
 5. Open in browser:
-http://localhost:5173
+   ```bash
+   http://localhost:5173
 
 ## 🌐 Tech Stack
-React
-JavaScript
-Tailwind CSS
-CSS Modules
+React<br>
+JavaScript<br>
+Tailwind CSS<br>
+CSS Modules<br>
 Vite (for faster builds)
 
 ## 🔗 Live Demo
-have to add
+[Live Website](https://todolist-react-shahmir.vercel.app)
+
+## Follow On LinkedIn
+[LinkedIn](https://www.linkedin.com/in/shahmir-qureshi-162200252)
 
 ## 🙌 Credits
 Created with ❤️ by Shahmir Ali Qureshi
