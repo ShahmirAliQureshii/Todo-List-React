@@ -1,12 +1,76 @@
-# React + Vite
+# 📝 Todo List – React JS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple yet functional Todo List app built using **React**, featuring **state management**, **component reuse**, **props**, **conditional rendering**, **Tailwind CSS**, and **CSS Modules**.
 
-Currently, two official plugins are available:
+## 🔍 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project helps you learn and apply core React concepts by building a basic Todo List. It allows users to add tasks, shows a list dynamically, and gives feedback when no tasks are present.
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ Functional components
+- ✅ useState Hook for state management
+- ✅ Prop drilling
+- ✅ Conditional rendering (`ConditionCheck`)
+- ✅ Reusable `ContainerBox` layout
+- ✅ Custom `InputBox` with keyboard event handling
+- ✅ Styled using Tailwind CSS + CSS Modules
+
+## 🧠 What I Learned
+
+- Handling user input with `onKeyDown`
+- Lifting and sharing state between components
+- Creating dynamic lists using `map`
+- Reusability through child components and `props.children`
+- Conditional UI rendering based on state
+- Using Tailwind CSS for quick styling
+- Using CSS Modules for scoped component styles
+
+## 📁 Folder Structure
+
+Todo-List-React/<br>
+│<br>
+├── src/<br>
+│ ├── App.jsx<br>
+│ ├── components/<br>
+│ │ ├── FoodItems.jsx<br>
+│ │ ├── List.jsx<br>
+│ │ ├── ListItem.jsx<br>
+│ │ ├── ListItem.module.css<br>
+│ │ ├── InputBox.jsx<br>
+│ │ ├── ContainerBox.jsx<br>
+│ │ └── ConditionCheck.jsx<br>
+├── public/<br>
+├── package.json<br>
+├── tailwind.config.js<br>
+└── README.md<br>
+
+
+## 🛠️ How to Run
+
+1. Clone this repository  
+   ```bash
+   git clone https://github.com/ShahmirAliQureshii/Todo-List-React.git
+   cd Todo-List-React
+   
+2. Install dependencies
+npm install
+
+3. Start the development server
+npm run dev
+
+5. Open in browser:
+http://localhost:5173
+
+## 🌐 Tech Stack
+React
+JavaScript
+Tailwind CSS
+CSS Modules
+Vite (for faster builds)
+
+## 🔗 Live Demo
+have to add
+
+## 🙌 Credits
+Created with ❤️ by Shahmir Ali Qureshi
